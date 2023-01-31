@@ -3,7 +3,7 @@ cmake_minimum_required (VERSION 3.18...3.20 FATAL_ERROR)
 # ---[ Solution.
 project (CfgControl
   VERSION 0.1.0.0
-  DESCRIPTION "Get all labels from files."
+  DESCRIPTION ""
   HOMEPAGE_URL ""
   LANGUAGES CXX
 )
@@ -57,7 +57,7 @@ conan_cmake_install (
   PATH_OR_REFERENCE "."
   GENERATOR cmake
   BUILD missing
-  REMOTE conan-center
+#  REMOTE conan-center
   SETTINGS ${CONAN_SETTINGS}
 )
 if (EXISTS "${CMAKE_BINARY_DIR}/conanbuildinfo_multi.cmake")

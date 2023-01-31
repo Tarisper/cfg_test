@@ -1,5 +1,6 @@
 #include "backends/backends.hpp"
 
+#include <algorithm>
 #include <memory>
 #include <utilities/utilities.hpp>
 

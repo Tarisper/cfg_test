@@ -7,6 +7,7 @@
 * [CMake](https://cmake.org/download/) >= 3.18
 * [Conan](https://conan.io/downloads.html)
 * VS 2019 (Community, Workload NativeDesktop, vcredist140, WinDbg)
+* GCC > 5
 
 _Опционально:_
 * [Ninja](https://github.com/ninja-build/ninja/releases)

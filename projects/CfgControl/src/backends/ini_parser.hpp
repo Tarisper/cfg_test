@@ -18,7 +18,7 @@ class IniParser final : public ParserManager {
   bool checkConfigFile(const std::string& configPath, bool isFile = true);
   bool findParam(std::string parent, std::string name,
                  std::vector<Param>& params, std::vector<Param>::iterator& it);
-  std::string IniParser::getKey(const std::string& section,
+  std::string getKey(const std::string& section,
                                 const std::string& name);
   void getParams(Param& param, const std::string& parent,
                  const std::string& name, size_t ord);
